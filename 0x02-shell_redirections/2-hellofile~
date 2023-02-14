@@ -1,3 +1,0 @@
-#!/bin/bash
-FILENAME="/etc/passwd"
-while IFS=:emacs 2-hellofile
