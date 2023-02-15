@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d "cC"
+echo "Charles called Choice" | sed 's/Cc//g'
