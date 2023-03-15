@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Charles called Choice" | tr -d 'cC'
+tr -d 'cC'
