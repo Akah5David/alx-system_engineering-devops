@@ -1,2 +1,10 @@
 #!/bin/bash
-head -n 3 iacta | tail -n 1
+counter=1
+while read line; do
+	if [$counter -eq 3]; then
+		echo $line
+		break
+
+	fi
+	((counter++))
+done < iacta
